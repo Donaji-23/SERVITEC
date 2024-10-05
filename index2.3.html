@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reparación de Dispositivos Móviles - Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Servicio Técnico Jarochito</h1>
+        <p>Especialistas en reparación de dispositivos móviles</p>
+        <nav>
+            <ul>
+                <li><a href="index2.0.html">Inicio</a></li>
+                <li><a href="index2.1.html">Servicios</a></li>
+                <li><a href="index2.2.html">Promociones</a></li>
+                <li><a href="index2.3.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Contáctanos</h2>
+            <form action="procesar_formulario.php" method="post">
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section id="map">
+            <h2>Nuestra Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d402.6113104132603!2d-96.20737069995549!3d18.02834298430522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2smx!4v1728098321505!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Servicio Técnico Jarochito. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

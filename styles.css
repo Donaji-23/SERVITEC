@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+main {
+    padding: 10px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para la sección de contacto */
+#contact {
+    text-align: center; /* Centra el texto de la sección de contacto */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+#map {
+    text-align: center; /* Centra el texto de la sección del mapa */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+/* Estilos para el formulario */
+form {
+    display: inline-block; /* Permite centrar el formulario como un bloque */
+    text-align: left; /* Mantiene el texto del formulario alineado a la izquierda */
+    width: 100%; /* O ajusta el ancho según sea necesario */
+    max-width: 400px; /* Limita el ancho máximo del formulario */
+}
+
+form input, form textarea {
+    width: 100%; /* Ajusta el ancho de los campos del formulario */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Añade un borde a los campos */
+    border-radius: 5px; /* Bordes redondeados para los campos */
+}
+
+form input[type="submit"] {
+    width: auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la imagen centrada */
+.image-container {
+    display: flex;           /* Usamos Flexbox para centrar */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    margin: 20px 0;        /* Espaciado superior e inferior */
+    gap: 15px;             /* Espacio entre las imágenes */
+}
+
+/* Estilo para las imágenes de promociones */
+.image-container img {
+    width: 200px;          /* Cambia el tamaño de las imágenes a 200px */
+    height: auto;          /* Mantiene la relación de aspecto */
+    border-radius: 5px;    /* Bordes redondeados para las imágenes */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
+}
+
+/* Estilos para la tabla de promociones */
+.table-container {
+    display: flex;
+    justify-content: center; /* Centra la tabla */
+    margin: 20px 0;        /* Espaciado superior e inferior */
+}
+
+table {
+    border-collapse: collapse; /* Colapsa bordes para evitar doble borde */
+    width: 80%; /* Ajusta el ancho de la tabla según sea necesario */
+    max-width: 600px; /* Ancho máximo de la tabla */
+    margin: 0 auto; /* Centra la tabla */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
+}
+
+th, td {
+    border: 1px solid #007bff; /* Borde azul para las celdas */
+    padding: 10px; /* Espaciado dentro de las celdas */
+    text-align: center; /* Centra el texto en las celdas */
+}
+
+th {
+    background-color: #007bff; /* Color de fondo para los encabezados */
+    color: white; /* Color del texto en los encabezados */
+}
+
+tbody tr:hover {
+    background-color: #f2f2f2; /* Color de fondo al pasar el ratón por encima de las filas */
+}
+
+/* Estilos para la sección de galería */
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las imágenes */
+    gap: 15px; /* Espaciado entre imágenes */
+    margin-top: 20px;
+}
+
+.album img {
+    width: 300px; /* Ajusta el tamaño de las imágenes */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
+}
